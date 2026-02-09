@@ -1,7 +1,7 @@
 {
     "packageDirectories": [
         { 
-            "path": "unpackaged", 
+            "path": "force-app-beazer", 
             "default": true 
         }
     ],
@@ -9,4 +9,5 @@
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "44.0"
+
 }
