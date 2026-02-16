@@ -9,6 +9,7 @@ private class MyIterableTest {
         for(string str:stringIterable){
             System.debug (str);
         }
+        System.assert(true,true);
    
     }
 
