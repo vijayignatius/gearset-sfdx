@@ -7,8 +7,7 @@ public class MyIterable implements Iterable<String> {
         System.debug('constructor called' );
         System.debug('strings: ' + strings);
         System.debug('strings.size(): ' + strings.size());
-        System.debug('strings.get(0): ' + strings.get(0));
-        
+        System.debug('commiting to feature1');
 
 
 
