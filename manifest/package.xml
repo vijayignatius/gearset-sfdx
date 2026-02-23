@@ -28,12 +28,12 @@
         <name>AuraDefinitionBundle</name>
     </types>
 
+    <!--
     
     <types>
         <members>Contact</members>
         <name>CustomObject</name>
     </types>
-    <!--
     <types>
         <members>AI_Agent__c</members>
         <name>CustomTab</name>
