@@ -7,7 +7,7 @@ public class MyIterable implements Iterable<String> {
         System.debug('constructor called' );
         System.debug('strings: ' + strings);
         System.debug('strings.size(): ' + strings.size());
-        System.debug('commiting from org to git demo');
+        System.debug('commiting from brave dev org to git commit-to-demo-feature');
 
 
 
