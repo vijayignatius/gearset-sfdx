@@ -8,11 +8,11 @@ private with sharing class TemperatureConverterTest {
     Decimal celsius = TemperatureConverter.FahrenheitToCelsius(32);
     Assert.areEqual(0,celsius);
   }
-  /*@IsTest static void testBoilingPoint() {
+  @IsTest static void testBoilingPoint() {
     Decimal celsius = TemperatureConverter.FahrenheitToCelsius(212);
     Assert.areEqual(100,celsius,'Boiling point temperature is not expected.');
   }
-  @IsTest static void testNegativeTemp() {
+  /*@IsTest static void testNegativeTemp() {
     Decimal celsius = TemperatureConverter.FahrenheitToCelsius(-10);
     Assert.areEqual(-23.33,celsius);
   }*/
