@@ -28,6 +28,10 @@
         <name>AuraDefinitionBundle</name>
     </types>
 
+    <types>
+        <members>DataMaskCustomValueLibrary</members>
+        <name>CustomObject</name>
+    </types>
     <!--
     
     <types>
@@ -53,11 +57,12 @@
         <members>Account_Record_Page</members>
         <name>FlexiPage</name>
     </types>
-    -->
     <types>
         <members>*</members>
         <name>Flow</name>
     </types>
+    -->
+    
 
     <types>
         <members>*</members>
