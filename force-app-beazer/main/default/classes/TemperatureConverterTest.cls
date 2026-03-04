@@ -4,11 +4,11 @@ private with sharing class TemperatureConverterTest {
     Decimal celsius = TemperatureConverter.FahrenheitToCelsius(70);
     Assert.areEqual(21.11,celsius);
   }
-  /*@IsTest static void testFreezingPoint() {
+  @IsTest static void testFreezingPoint() {
     Decimal celsius = TemperatureConverter.FahrenheitToCelsius(32);
     Assert.areEqual(0,celsius);
   }
-  @IsTest static void testBoilingPoint() {
+  /*@IsTest static void testBoilingPoint() {
     Decimal celsius = TemperatureConverter.FahrenheitToCelsius(212);
     Assert.areEqual(100,celsius,'Boiling point temperature is not expected.');
   }
